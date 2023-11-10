@@ -1,1 +1,114 @@
-@import "./reset.css"
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+}
+.container  {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.header {
+    padding-top: 26px;
+    background-color: rgba(241, 241, 241, 1);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 46px;
+}
+
+.logo {
+    position: relative;
+    padding: 0 3px 3px 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    color: black;
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active {
+    color: #606060;    
+}
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p {
+    line-height: 2;
+}
+
+/*Service*/
+
+.services {
+    padding: 90px 0;
+}
+
+.service-row {
+
+}
+
+.service-card {
+
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.service-card p {
+    line-height: inherit;
+}

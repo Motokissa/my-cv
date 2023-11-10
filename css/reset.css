@@ -37,6 +37,8 @@ ul, ul li {
 
 img {
 	vertical-align: top;
+	margin-right: 100px;
+	width: 250px;
 }
 
 img, svg {
