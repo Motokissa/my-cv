@@ -1,1 +1,1 @@
-# my-cv
+https://Motokissa.github.io/my-cv/my-cv
