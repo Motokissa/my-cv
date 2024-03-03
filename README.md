@@ -1,1 +1,1 @@
-https://Motokissa.github.io/my-cv/my-cv
+https://ValentinaShyshko.github.io/my-cv/my-cv
